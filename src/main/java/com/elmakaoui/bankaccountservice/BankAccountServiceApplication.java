@@ -29,6 +29,7 @@ public class BankAccountServiceApplication {
 						.createAt(new Date())
 						.currency("MAD")
 						.build();
+				bankAccountRepository.save(bankAccount);
 			}
 		};
 	}
